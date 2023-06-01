@@ -78,12 +78,12 @@ public class PassengerInfo {
         return total_price;
     }
     public void printInvoice(){
-                System.out.println("Here is your invoice:");
-                System.out.println("-------------AirLine: Bangladesh AirLine---------------");
-                System.out.println("Flight number:"+flight_num);
-                System.out.println("Name of Passenger: "+name+"                   " +"Passport NO: "+passport);
-                System.out.println("Phone NO: "+phone+"                                 "+"Address: "+address);
-                System.out.println("Class: "+classtype);
-                System.out.println("Tickets: "+tickets+"                                     "+"Price: "+total_price);
+                System.out.println("                                           Here is your invoice:");
+                System.out.println("                                           -------------AirLine: Bangladesh AirLine---------------");
+                System.out.println("                                           Flight number:"+flight_num);
+                System.out.println("                                           Name of Passenger: "+name+"                   " +"Passport NO: "+passport);
+                System.out.println("                                           Phone NO: "+phone+"                                 "+"Address: "+address);
+                System.out.println("                                           Class: "+classtype);
+                System.out.println("                                           Tickets: "+tickets+"                                     "+"Price: "+total_price);
     }
 }

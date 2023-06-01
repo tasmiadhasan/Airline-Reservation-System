@@ -9,15 +9,15 @@ public class One_Way {
         dhaka_to_sydney dacca_to_syd=new dhaka_to_sydney();
         dhaka_to_dubai dacca_to_du=new dhaka_to_dubai();
         Scanner scanner=new Scanner(System.in);
-        System.out.println("1.Dhaka To Tokyo");
-        System.out.println("2.Dhaka To London");
-        System.out.println("3.Dhaka To Munich");
-        System.out.println("4.Dhaka To Sydney");
-        System.out.println("5.Dhaka To Dubai");
-        System.out.println("6.Previous menu");
-        System.out.println("7.Main Menu");
-        System.out.println("8.Exit");
-        System.out.println("Choose The Destination To see the flights:");
+        System.out.println("                                           1.Dhaka To Tokyo");
+        System.out.println("                                           2.Dhaka To London");
+        System.out.println("                                           3.Dhaka To Munich");
+        System.out.println("                                           4.Dhaka To Sydney");
+        System.out.println("                                           5.Dhaka To Dubai");
+        System.out.println("                                           6.Previous menu");
+        System.out.println("                                           7.Main Menu");
+        System.out.println("                                           8.Exit");
+        System.out.print("                                           Choose The Destination To see the flights:");
         int choice=scanner.nextInt();
         switch (choice){
             case 1:
@@ -44,7 +44,7 @@ public class One_Way {
                 me.menu();
                 break;
             case 8:
-                System.out.println("Thank you for using our AirLine.");
+                System.out.println("                                           Thank you for using our AirLine.");
                 System.exit(0);
                 break;
 

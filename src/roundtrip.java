@@ -7,16 +7,16 @@ public class roundtrip {
         rdhaka_to_london rdhakaToLondon=new rdhaka_to_london();
         rdhaka_to_sydney rdhakaToSydney=new rdhaka_to_sydney();
         rdhaka_to_munich rdhakaToMunich=new rdhaka_to_munich();
-        System.out.println("Our Available Trips are....");
-        System.out.println("1.Dhaka-Dubai-Tokyo");
-        System.out.println("2.Dhaka-Dubai-Sydney");
-        System.out.println("3.Dhaka-Dubai-Munich");
-        System.out.println("4.Dhaka-Dubai-London");
-        System.out.println("5.Previous Menu");
-        System.out.println("6.Main Menu");
-        System.out.println("7.Exit");
+        System.out.println("                                           Our Available Trips are...."+"\n");
+        System.out.println("                                           1.Dhaka-Dubai-Tokyo");
+        System.out.println("                                           2.Dhaka-Dubai-Sydney");
+        System.out.println("                                           3.Dhaka-Dubai-Munich");
+        System.out.println("                                           4.Dhaka-Dubai-London");
+        System.out.println("                                           5.Previous Menu");
+        System.out.println("                                           6.Main Menu");
+        System.out.println("                                           7.Exit");
         Scanner scanner=new Scanner(System.in);
-        System.out.println("Enter your choice:");
+        System.out.print("                                           Enter your choice:");
         int choice=scanner.nextInt();
         switch (choice){
             case 1:
@@ -40,7 +40,7 @@ public class roundtrip {
                 m.menu();
                 break;
             case 7:
-                System.out.println("Thank you for using our AirLine.");
+                System.out.println("                                           Thank you for using our AirLine.");
                 System.exit(0);
                 break;
         }

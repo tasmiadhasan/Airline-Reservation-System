@@ -62,6 +62,6 @@ public class roundflights {
         this.stoptime = stoptime;
     }
     public String toString(){
-        return "No:"+flight_num+"   Flying From:"+start+"    Via:"+via+"   Flying to:"+stop+"\n"+"   Date & Time:"+stime+"  Arrival:"+stoptime;
+        return ("                                           No:"+flight_num+"   Flying From:"+start+"    Via:"+via+"   Flying to:"+stop+"\n"+"                                           Date & Time:"+stime+"  Arrival:"+stoptime)+"\n";
     }
 }

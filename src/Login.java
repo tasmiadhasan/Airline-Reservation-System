@@ -6,9 +6,9 @@ public class Login {
     Menu menu = new Menu();
     public void login(){
         Scanner sc = new Scanner(System.in);
-        System.out.print("USERNAME:");
+        System.out.print("                                           USERNAME:");
         String name = sc.nextLine();
-        System.out.print("PASSWORD:");
+        System.out.print("                                           PASSWORD:");
         String pass = sc.nextLine();
         try{
             File file = new File("login.txt");
@@ -17,10 +17,12 @@ public class Login {
                 String user_name = scanner.next();
                 String password = scanner.next();
                 if (name.equals(user_name) && pass.equals(password)) {
+
                     menu.menu();
+
                 }
                 else{
-                    System.out.println("Login failed");
+                    System.out.println("                                           Login failed");
                 }
             } scanner.close();
         }catch (FileNotFoundException e){

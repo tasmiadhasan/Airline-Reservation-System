@@ -3,8 +3,6 @@ import java.util.Scanner;
 
 public class Menu {
     public void menu(){
-
-
         Book_A_Flight book_a_flight = new Book_A_Flight();
         Scanner scanner = new Scanner(System.in);
         System.out.println("                                           1.Book Flight");

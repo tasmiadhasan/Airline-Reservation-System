@@ -17,7 +17,7 @@ public class rdhaka_to_sydney {
                 roundflights flight=new roundflights(flight_num,start,via1,stop,stime,stoptime);
                 System.out.println(flight);
             }scanner.close();
-            roundinvoice invc=new roundinvoice();
+            Round_Bill_Invoice invc=new Round_Bill_Invoice();
             invc.bill();
         }catch(FileNotFoundException e){
             System.out.println(e);

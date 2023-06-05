@@ -16,34 +16,42 @@ public class One_Way {
         System.out.println("                                           5.Dhaka To Dubai");
         System.out.println("                                           6.Previous menu");
         System.out.println("                                           7.Main Menu");
-        System.out.println("                                           8.Exit");
+        System.out.println("                                           8.Exit"+"\n");
         System.out.print("                                           Choose The Destination To see the flights:");
         int choice=scanner.nextInt();
         switch (choice){
             case 1:
+                System.out.println("");
                 dacca_to_jap.dacca_to_jp();
                 break;
             case 2:
+                System.out.println("");
                 dacca_to_lon.dacca_to_london();
                 break;
             case 3:
+                System.out.println("");
                 dacca_to_mun.dacca_to_munich();
                 break;
             case 4:
+                System.out.println("");
                 dacca_to_syd.dacca_to_sydney();
                 break;
             case 5:
+                System.out.println("");
                 dacca_to_du.dacca_to_dubai();
                 break;
             case 6:
+                System.out.println("");
                 Book_A_Flight boo=new Book_A_Flight();
                 boo.book();
                 break;
             case 7:
+                System.out.println("");
                 Menu me=new Menu();
                 me.menu();
                 break;
             case 8:
+                System.out.println("");
                 System.out.println("                                           Thank you for using our AirLine.");
                 System.exit(0);
                 break;

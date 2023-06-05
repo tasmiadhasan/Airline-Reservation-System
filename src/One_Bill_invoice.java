@@ -1,10 +1,8 @@
 import java.util.Scanner;
-public class invoice {
+public class One_Bill_invoice {
     public void bill() {
         Scanner scan = new Scanner(System.in);
-        System.out.println("                                           To complete the procedure, please fill out the following details."+ "\n");
-        System.out.print("                                           Enter your desired flight number: ");
-        String flight_no = scan.next();
+        System.out.println("                                           To Reserve a Ticket you need to put the Information. ."+ "\n");
         System.out.print("                                           Enter your name: ");
         String name = scan.next();
         System.out.print("                                           Enter your Passport number: ");
@@ -13,22 +11,22 @@ public class invoice {
         String phone = scan.next();
         System.out.print("                                           Enter your Address: ");
         String address = scan.next();
-        System.out.print("                                           Enter how many tickets you want to buy: ");
+        System.out.print("                                           Enter Quantity of tickets: ");
         int ticket = scan.nextInt();
         scan.nextLine();
-        System.out.print("                                           Enter class (First Class/Second Class): ");
+        System.out.print("                                           Enter class (Business/Economy): ");
         String clas = scan.next();
         int price;
         int total_price;
-        if (clas.equals("First")) {
-            price = 5000;
+        if (clas.equals("Business")) {
+            price = 50000;
             total_price = price * ticket;
-            PassengerInfo passenger = new PassengerInfo(name, passport, address, phone, clas, ticket, flight_no, total_price);
+            One_Passenger passenger = new One_Passenger(name, passport, address, phone, clas, ticket, total_price);
             passenger.printInvoice();
-        } else if (clas.equals("Second")) {
-            price = 3000;
+        } else if (clas.equals("Economy")) {
+            price = 30000;
             total_price = price * ticket;
-            PassengerInfo passenger = new PassengerInfo(name, passport, address, phone, clas, ticket, flight_no, total_price);
+            One_Passenger passenger = new One_Passenger(name, passport, address, phone, clas, ticket, total_price);
             passenger.printInvoice();
         } else {
             System.out.println("                                           Wrong input");

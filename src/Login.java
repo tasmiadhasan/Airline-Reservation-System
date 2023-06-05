@@ -1,5 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Login {
@@ -13,18 +14,23 @@ public class Login {
         try{
             File file = new File("login.txt");
             Scanner scanner=new Scanner(file);
+            boolean loginOK=false;
             while(scanner.hasNext()) {
                 String user_name = scanner.next();
                 String password = scanner.next();
                 if (name.equals(user_name) && pass.equals(password)) {
-
-                    menu.menu();
-
-                }
-                else{
-                    System.out.println("                                           Login failed");
+                    loginOK=true;
+                    break;
                 }
             } scanner.close();
+            if(loginOK){
+                System.out.println("                                           ------------------Login Successful--------------------"+"\n");
+                menu.menu();
+            }
+            else{
+                System.out.println("                                           Login Failed!!");
+                System.out.println("                                           Try Again..........");
+            }
         }catch (FileNotFoundException e){
             System.out.println(e);
         }

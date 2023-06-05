@@ -52,6 +52,6 @@ public class flights {
         this.stoptime = stoptime;
     }
     public String toString(){
-        return ("                                           Flight No:"+flight_num+"   Flying From:"+start+"   Flying to:"+stop+"\n"+"                                           Date & Time:"+stime+"Arrival:"+stoptime)+"\n";
+        return ("                                           Flight No:"+flight_num+"   Flying From:"+start+"   Flying to:"+stop+"\n"+"                                           Date & Time:"+stime+"    Arrival:"+stoptime)+"\n";
     }
 }

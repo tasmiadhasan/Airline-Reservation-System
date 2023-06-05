@@ -17,7 +17,7 @@ public class dhaka_to_japan {
                 System.out.println(flight);
 
             }scanner.close();
-            invoice inv=new invoice();
+            One_Bill_invoice inv=new One_Bill_invoice();
             inv.bill();
         }catch(FileNotFoundException e){
             System.out.println(e);

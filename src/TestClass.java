@@ -29,6 +29,8 @@ public class TestClass {
                     System.out.println("                                           Thank you for using User AirLine Reservation System!");
                     System.exit(0);
                     break;
+                default:
+                    System.out.println("                                           Invalid Input");
             }
 
         }

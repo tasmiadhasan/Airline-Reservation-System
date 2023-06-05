@@ -31,6 +31,8 @@ public class Book_A_Flight {
                 System.out.println("                                            Thank You for Choosing Our AirLine");
                 System.exit(0);
                 break;
+            default:
+                System.out.println("                                           Invalid Input");
         }
     }
 }

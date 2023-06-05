@@ -50,6 +50,8 @@ public class roundtrip {
                 System.out.println("                                           Thank you for using our AirLine.");
                 System.exit(0);
                 break;
+            default:
+                System.out.println("                                           Invalid Input");
         }
     }
 }

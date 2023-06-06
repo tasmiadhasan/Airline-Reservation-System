@@ -63,7 +63,8 @@ public class oneinvoice {
         System.out.println("                                           Here is your invoice:"+"\n");
         System.out.println("                                           -----------------AirLine: Bangladesh AirLine---------------------");
         System.out.println("                                           -----------------------------------------------------------------");
-        System.out.println("                                           Flight No:"+flight+"\n");
+        System.out.println("                                           Flight No:"+flight);
+        System.out.println("                                           ---------------------"+"\n");
         System.out.println("                                           From:"+from+"          "+"               To:"+to);
         System.out.println("                                           Departure:"+departure+"      "+"         Arrival:"+arrival);
     }

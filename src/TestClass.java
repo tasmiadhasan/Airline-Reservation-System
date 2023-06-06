@@ -31,6 +31,7 @@ public class TestClass {
                     break;
                 default:
                     System.out.println("                                           Invalid Input");
+
             }
 
         }

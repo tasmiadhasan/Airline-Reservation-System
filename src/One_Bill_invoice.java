@@ -3,6 +3,7 @@ public class One_Bill_invoice {
     public void bill() {
         Scanner scan = new Scanner(System.in);
         System.out.println("                                           To Reserve a Ticket you need to put the Information. ."+ "\n");
+        System.out.println("                                           -----------------------------------------------------");
         System.out.print("                                           Enter your name: ");
         String name = scan.next();
         System.out.print("                                           Enter your Passport number: ");

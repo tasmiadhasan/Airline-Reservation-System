@@ -73,7 +73,8 @@ public class Round_Invoice{
         System.out.println("                                           Here is your invoice:"+"\n");
         System.out.println("                                           -----------------------------------------------------------------");
         System.out.println("                                           -------------------AirLine: Bangladesh AirLine-------------------");
-        System.out.println("                                           Flight No:"+flight+"\n");
+        System.out.println("                                           Flight No:"+flight);
+        System.out.println("                                           ---------------------"+"\n");
         System.out.println("                                           From:"+from+"          "+"               Via:"+via);
         System.out.println("                                           To:"+to);
         System.out.println("                                           Departure:"+departure+"      "+"         Arrival:"+arrival);

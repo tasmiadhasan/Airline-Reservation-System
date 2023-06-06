@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class dhaka_to_sydney {
     public void dacca_to_sydney(){
         try{
-            File file=new File("dhaka_to_sydney.txt");
+            File file=new File("dhaka_to_sydney2.txt");
             Scanner scanner=new Scanner(file);
             while(scanner.hasNext()){
                 String flight_num=scanner.next();

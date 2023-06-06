@@ -5,6 +5,7 @@ public class Menu {
     public void menu(){
         Book_A_Flight book_a_flight = new Book_A_Flight();
         Scanner scanner = new Scanner(System.in);
+        System.out.println("                                           Welcome to AirLine Reservation System"+"\n");
         System.out.println("                                           1.Book-Flight");
         System.out.println("                                           2.Cancel a Flight");
         System.out.println("                                           3.Exit"+'\n');
